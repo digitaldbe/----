@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74F2BD0F17B87C9B00A4A943 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F2BD0E17B87C9B00A4A943 /* UIKit.framework */; };
+		74F2BD1117B87C9B00A4A943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F2BD1017B87C9B00A4A943 /* Foundation.framework */; };
+		74F2BD1317B87C9B00A4A943 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F2BD1217B87C9B00A4A943 /* CoreGraphics.framework */; };
+		74F2BD1917B87C9B00A4A943 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74F2BD1717B87C9B00A4A943 /* InfoPlist.strings */; };
+		74F2BD1B17B87C9B00A4A943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F2BD1A17B87C9B00A4A943 /* main.m */; };
+		74F2BD1F17B87C9B00A4A943 /* YUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F2BD1E17B87C9B00A4A943 /* YUAppDelegate.m */; };
+		74F2BD2117B87C9B00A4A943 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F2BD2017B87C9B00A4A943 /* Default.png */; };
+		74F2BD2317B87C9B00A4A943 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F2BD2217B87C9B00A4A943 /* Default@2x.png */; };
+		74F2BD2517B87C9B00A4A943 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F2BD2417B87C9B00A4A943 /* Default-568h@2x.png */; };
+		74F2BD2817B87C9B00A4A943 /* YUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F2BD2717B87C9B00A4A943 /* YUViewController.m */; };
+		74F2BD2B17B87C9B00A4A943 /* YUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74F2BD2917B87C9B00A4A943 /* YUViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74F2BD0B17B87C9B00A4A943 /* 滑动删除.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "滑动删除.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F2BD0E17B87C9B00A4A943 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74F2BD1017B87C9B00A4A943 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74F2BD1217B87C9B00A4A943 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74F2BD1617B87C9B00A4A943 /* 滑动删除-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "滑动删除-Info.plist"; sourceTree = "<group>"; };
+		74F2BD1817B87C9B00A4A943 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74F2BD1A17B87C9B00A4A943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74F2BD1C17B87C9B00A4A943 /* 滑动删除-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "滑动删除-Prefix.pch"; sourceTree = "<group>"; };
+		74F2BD1D17B87C9B00A4A943 /* YUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUAppDelegate.h; sourceTree = "<group>"; };
+		74F2BD1E17B87C9B00A4A943 /* YUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUAppDelegate.m; sourceTree = "<group>"; };
+		74F2BD2017B87C9B00A4A943 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		74F2BD2217B87C9B00A4A943 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		74F2BD2417B87C9B00A4A943 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		74F2BD2617B87C9B00A4A943 /* YUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUViewController.h; sourceTree = "<group>"; };
+		74F2BD2717B87C9B00A4A943 /* YUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUViewController.m; sourceTree = "<group>"; };
+		74F2BD2A17B87C9B00A4A943 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YUViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F2BD0817B87C9B00A4A943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F2BD0F17B87C9B00A4A943 /* UIKit.framework in Frameworks */,
+				74F2BD1117B87C9B00A4A943 /* Foundation.framework in Frameworks */,
+				74F2BD1317B87C9B00A4A943 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74F2BD0217B87C9B00A4A943 = {
+			isa = PBXGroup;
+			children = (
+				74F2BD1417B87C9B00A4A943 /* 滑动删除 */,
+				74F2BD0D17B87C9B00A4A943 /* Frameworks */,
+				74F2BD0C17B87C9B00A4A943 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74F2BD0C17B87C9B00A4A943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F2BD0B17B87C9B00A4A943 /* 滑动删除.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F2BD0D17B87C9B00A4A943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74F2BD0E17B87C9B00A4A943 /* UIKit.framework */,
+				74F2BD1017B87C9B00A4A943 /* Foundation.framework */,
+				74F2BD1217B87C9B00A4A943 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74F2BD1417B87C9B00A4A943 /* 滑动删除 */ = {
+			isa = PBXGroup;
+			children = (
+				74F2BD1D17B87C9B00A4A943 /* YUAppDelegate.h */,
+				74F2BD1E17B87C9B00A4A943 /* YUAppDelegate.m */,
+				74F2BD2617B87C9B00A4A943 /* YUViewController.h */,
+				74F2BD2717B87C9B00A4A943 /* YUViewController.m */,
+				74F2BD2917B87C9B00A4A943 /* YUViewController.xib */,
+				74F2BD1517B87C9B00A4A943 /* Supporting Files */,
+			);
+			path = "滑动删除";
+			sourceTree = "<group>";
+		};
+		74F2BD1517B87C9B00A4A943 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74F2BD1617B87C9B00A4A943 /* 滑动删除-Info.plist */,
+				74F2BD1717B87C9B00A4A943 /* InfoPlist.strings */,
+				74F2BD1A17B87C9B00A4A943 /* main.m */,
+				74F2BD1C17B87C9B00A4A943 /* 滑动删除-Prefix.pch */,
+				74F2BD2017B87C9B00A4A943 /* Default.png */,
+				74F2BD2217B87C9B00A4A943 /* Default@2x.png */,
+				74F2BD2417B87C9B00A4A943 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F2BD0A17B87C9B00A4A943 /* 滑动删除 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F2BD2E17B87C9B00A4A943 /* Build configuration list for PBXNativeTarget "滑动删除" */;
+			buildPhases = (
+				74F2BD0717B87C9B00A4A943 /* Sources */,
+				74F2BD0817B87C9B00A4A943 /* Frameworks */,
+				74F2BD0917B87C9B00A4A943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "滑动删除";
+			productName = "滑动删除";
+			productReference = 74F2BD0B17B87C9B00A4A943 /* 滑动删除.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F2BD0317B87C9B00A4A943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YU;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "IOSCHEN复习";
+			};
+			buildConfigurationList = 74F2BD0617B87C9B00A4A943 /* Build configuration list for PBXProject "滑动删除" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74F2BD0217B87C9B00A4A943;
+			productRefGroup = 74F2BD0C17B87C9B00A4A943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F2BD0A17B87C9B00A4A943 /* 滑动删除 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F2BD0917B87C9B00A4A943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F2BD1917B87C9B00A4A943 /* InfoPlist.strings in Resources */,
+				74F2BD2117B87C9B00A4A943 /* Default.png in Resources */,
+				74F2BD2317B87C9B00A4A943 /* Default@2x.png in Resources */,
+				74F2BD2517B87C9B00A4A943 /* Default-568h@2x.png in Resources */,
+				74F2BD2B17B87C9B00A4A943 /* YUViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F2BD0717B87C9B00A4A943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F2BD1B17B87C9B00A4A943 /* main.m in Sources */,
+				74F2BD1F17B87C9B00A4A943 /* YUAppDelegate.m in Sources */,
+				74F2BD2817B87C9B00A4A943 /* YUViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74F2BD1717B87C9B00A4A943 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F2BD1817B87C9B00A4A943 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74F2BD2917B87C9B00A4A943 /* YUViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F2BD2A17B87C9B00A4A943 /* en */,
+			);
+			name = YUViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F2BD2C17B87C9B00A4A943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74F2BD2D17B87C9B00A4A943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74F2BD2F17B87C9B00A4A943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "滑动删除/滑动删除-Prefix.pch";
+				INFOPLIST_FILE = "滑动删除/滑动删除-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74F2BD3017B87C9B00A4A943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "滑动删除/滑动删除-Prefix.pch";
+				INFOPLIST_FILE = "滑动删除/滑动删除-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F2BD0617B87C9B00A4A943 /* Build configuration list for PBXProject "滑动删除" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F2BD2C17B87C9B00A4A943 /* Debug */,
+				74F2BD2D17B87C9B00A4A943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F2BD2E17B87C9B00A4A943 /* Build configuration list for PBXNativeTarget "滑动删除" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F2BD2F17B87C9B00A4A943 /* Debug */,
+				74F2BD3017B87C9B00A4A943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74F2BD0317B87C9B00A4A943 /* Project object */;
+}
