@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YUViewController : UIViewController
-
+@interface YUViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property(strong,nonatomic)NSMutableArray *list;
+@property(strong ,nonatomic)UITableView *tableView;
+@property(strong,nonatomic)UITableViewCell *tableViewCell;
 @end
